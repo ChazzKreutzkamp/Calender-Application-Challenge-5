@@ -20,7 +20,6 @@ var savedStuffInitialize = function() {
         var savedtext = text[i].textInput;
         var savedEl = text[i].savedElement;
         $(savedEl).text(savedtext);
-        console.log(i);
     }
 }
 
@@ -44,16 +43,18 @@ $(".saveBtn").on("click", function() {
 });
 
 var timedBackground = function(timeNow) {  
-    console.log(timeNow);
     for (var i = 9; i<=17; i++) {
         var comparitorId = "#" + i + "-hundred";
         if(timeNow === i) {
+            $(comparitorId).removeClass("present past future");
             $(comparitorId).addClass("present");
         }
         else if (timeNow > i) {
+            $(comparitorId).removeClass("present past future");
             $(comparitorId).addClass("past");
         }
         else if (timeNow < i) {
+            $(comparitorId).removeClass("present past future");
             $(comparitorId).addClass("future");
         }
     }
