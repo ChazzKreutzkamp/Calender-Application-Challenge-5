@@ -6,3 +6,5 @@ occuring, have occured, or will occur. In addition there are save buttons that k
 Local Storage and said saved events will be reloaded once the page is refreshed.
 
 link to the application: https://chazzkreutzkamp.github.io/Calender-Application-Challenge-5/
+screenshot:
+![al text](https://github.com/ChazzKreutzkamp/Calender-Application-Challenge-5/blob/master/resources/Scheduler-Screen-Capture.JPG)
