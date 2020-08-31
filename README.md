@@ -1,4 +1,4 @@
-#Work Day Hourly Updating Calender
+# Work Day Hourly Updating Calender
 
 This application is a simple calender that helps a user keep track of work day events.
 To help keep track of events, the calender is color coded to indicate which events are currently
